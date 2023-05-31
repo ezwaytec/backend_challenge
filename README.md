@@ -51,6 +51,9 @@ Build a weather web app that allows querying weather in multiple cities at the s
 ## Tips
 
 - To query the weather by city you can use this API request (GET https://goweather.herokuapp.com/weather/{city}).
+  if for some reason it doesnt work you can use : 
+https://api.weatherapi.com/v1/current.json?q={city}&key=0c2ec368bdf34942bd0104420233005
+
 - Persistence layer can be implemented using any technology, such as the filesystem,
   embedded database or any other database of your choice.
 - Try to avoid wasting time on tooling and set up, stick to the tech stack you are familiar with.
